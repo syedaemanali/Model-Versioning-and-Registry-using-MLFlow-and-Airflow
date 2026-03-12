@@ -1,4 +1,4 @@
-# i221936 Assignment 2 DSB — Titanic ML Pipeline
+# i221936 Assignment 2 DSB : Titanic ML Pipeline
 
 End-to-end machine learning pipeline using Apache Airflow for orchestration and MLflow for experiment tracking. Predicts Titanic passenger survival using a DAG with parallel tasks, branching logic, and model registry.
 
@@ -137,5 +137,6 @@ Use `docker compose down -v` only if you want a completely clean slate — this 
 ---
 
 ## Setting Variables via UI
+
 
 Go to **http://localhost:8080** → Admin → Variables and add/edit keys manually.
